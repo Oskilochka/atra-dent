@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# This repository include 2 parts of task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Task part 1
 
-## Available Scripts
+### Task description:
+The main goal is to create a responsive frontend widget with the heading, text lead, and doctors list with pagination, powered by API.
 
-In the project directory, you can run:
+###Task details:
+* Design mockups for desktop and mobile versions are attached.
+> https://www.dropbox.com/s/miykuagpfntudoc/desktop_about.pdf?dl=0
+> https://www.dropbox.com/s/n3lvnq1bbzwyfbc/mobile_about.pdf?dl=0
 
-### `yarn start`
+* Data should be fetched from API endpoint 
+> https://5fe21e077a94870017682132.mockapi.io/api/testtask/doctors
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Only doctors widget with the heading, lead text, and doctors list with pagination is expected as a result, other page elements can be faked as pictures to give the page a realistic look or can just be ignored.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Developer should follow design mockup with maximum pixel-perfect similarity (different fake photos from API should at least fit their slots decently). There are no specific design mockups for tablet resolutions, developer should try to adapt the responsive layout for tablet resolutions to look good based on his/her own common sense and feel of beauty.
 
-### `yarn test`
+* Each doctor card should have a slight hover effect (not shown on the design mockup) and open the fake link provided in API in the new tab.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Doctors list should be paginated, not more than 10 doctors per page, the number of doctors per page can be changed to fit the design better. Pagination controls are not included to design mockups, the developer can create only pagination logic with common buttons, but creating own pagination styles based on other controls design that are presented on-page is a plus.
 
-### `yarn build`
+### Task conditions:
+* In this task, the developer must use the actual version of React.js. 
+* The result must look good in actual versions of all relevant browsers (Chrome, Firefox, Safari) 
+* The developer can choose any libraries that he will use for the task, but please consider building such a simple interface piece from scratch.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Task part 2
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Create a component that will accept the following data for example:
+> https://www.dropbox.com/s/18qqozhh34rbzxl/doctorsSchedule.json?dl=0
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* This JSON describes the doctor's work time, where the "start" field is the beginning of the working day, and the "end" field is the end.
+* The file also contains a list of already existing appointments, where for each entry the "start" field is the appointed appointment time, and the "duration" field is the duration of this appointment in minutes.
+* You need to split the doctor's working hours into 45-minute cells, excluding those that fall within the range of existing appointments.
 
-### `yarn eject`
+For example, for the file above, the output will be like this:
+> [10:00, 11:30, 12:15, 13:00, 14:10]
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+> Please don’t create a fancy interface. The output should be presented as one "div" element with the contents of the array inside.
