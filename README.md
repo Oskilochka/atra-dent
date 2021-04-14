@@ -1,5 +1,7 @@
 # This repository include 2 parts of task
 
+> To check the result for task 1 you need to write url /doctors and to check the second task -> /schedule.
+
 ## Task part 1
 
 ### Task description:
