@@ -1,14 +1,22 @@
 import React from 'react';
-import './App.scss';
 import {DoctorsWidget} from "./components/doctorsWidget/DoctorsWidget";
+import {Schedule} from "./components/schedule/Schedule";
+
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 function App() {
     return (
-        <div className="App">
-            <DoctorsWidget/>
-            {/*<Schedule />*/}
-        </div>
-    );
+        <Router>
+            <Switch>
+                <Route path="/doctors">
+                    <DoctorsWidget/>
+                </Route>
+                <Route path="/schedule">
+                    <Schedule/>
+                </Route>
+            </Switch>
+        </Router>
+    )
 }
 
 export default App;

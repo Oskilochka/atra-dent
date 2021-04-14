@@ -1,13 +1,15 @@
 import React, {FC} from "react";
 import './Pagination.scss'
+import {DoctorType} from "../doctorsWidget/DoctorsWidget";
+
 type PropsType = {
     limit: number,
     currentPage: number,
-    doctors: any,
+    doctors: Array<DoctorType> | undefined,
     onPageChange: (value: any) => void
 }
 
-export const Pagination: FC<PropsType> = ({currentPage, doctors,  limit, onPageChange}) => {
+export const Pagination: FC<PropsType> = ({currentPage, doctors, limit, onPageChange}) => {
 
     const prevPage = () => {
         onPageChange(currentPage - 1)
@@ -27,7 +29,6 @@ export const Pagination: FC<PropsType> = ({currentPage, doctors,  limit, onPageC
                 &#9658;
             </button>
             }
-
         </div>
     )
 }
