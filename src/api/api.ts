@@ -5,8 +5,8 @@ const instance = axios.create({
 })
 
 export const clinicAPI = {
-    async getDoctorsData() {
-        const res = await instance.get('doctors')
-        return res
+    async getDoctorsData(limit: number, currentPage: number) {
+        const res = await instance.get(`doctors?page=${currentPage}&limit=${limit}`)
+        return res.data
     }
 }

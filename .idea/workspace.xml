@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f491287b-ca7b-4d62-a956-bfc32703bf95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/schedule/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/assets/preloader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/doctorsWidget/Doctor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/doctorsWidget/Doctors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pagination/Pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/preloader/Preloader.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/schedule/Schedule.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/schedule/Schedule.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/doctorsWidget/DoctorsWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/doctorsWidget/DoctorsWidget.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pagination/Pagination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pagination/Pagination.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +28,15 @@
       <list>
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1r87tZkBiaPPpmE1WRePE6qmX1Q" />
   <component name="ProjectViewState">
@@ -31,7 +47,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/pagination" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/preloader" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -41,7 +58,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\study_dev\react\fastAndCurious\task-for-testing\src\components\preloader" />
       <recent name="D:\work\study_dev\react\fastAndCurious\task-for-testing\src\components\pagination" />
+      <recent name="D:\work\study_dev\react\fastAndCurious\task-for-testing\src\components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618346079007</updated>
-      <workItem from="1618346081074" duration="3006000" />
+      <workItem from="1618346081074" duration="17366000" />
     </task>
     <servers />
   </component>

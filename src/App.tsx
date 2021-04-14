@@ -1,13 +1,12 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import {DoctorsWidget} from "./components/doctorsWidget/DoctorsWidget";
-import {Schedule} from "./components/schedule/Schedule";
 
 function App() {
     return (
         <div className="App">
-            <DoctorsWidget />
-            <Schedule />
+            <DoctorsWidget/>
+            {/*<Schedule />*/}
         </div>
     );
 }
