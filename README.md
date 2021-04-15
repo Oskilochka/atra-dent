@@ -7,7 +7,7 @@
 ### Task description:
 The main goal is to create a responsive frontend widget with the heading, text lead, and doctors list with pagination, powered by API.
 
-###Task details:
+### Task details:
 * Design mockups for desktop and mobile versions are attached.
 > https://www.dropbox.com/s/miykuagpfntudoc/desktop_about.pdf?dl=0
 > https://www.dropbox.com/s/n3lvnq1bbzwyfbc/mobile_about.pdf?dl=0
