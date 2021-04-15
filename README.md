@@ -2,6 +2,8 @@
 
 > To check the result for task 1 you need to write url /doctors and to check the second task -> /schedule.
 
+> schedule component is located at atra-dent/src/components/schedule/ 
+
 ## Task part 1
 
 ### Task description:
